@@ -72,9 +72,6 @@
 
 -   Gestión de Libros.
 
-```{=html}
-<!-- -->
-```
 -   **Nombre**: Registrar nuevo libro.
 
 -   **Actor**: Bibliotecario.
@@ -83,14 +80,8 @@
     el sistema, ingresando información como título, cantidad, autor,
     editorial, materia, etc.
 
-```{=html}
-<!-- -->
-```
 -   Administración de Préstamos.
 
-```{=html}
-<!-- -->
-```
 -   **Nombre**: Realizar préstamo de libro.
 
 -   **Actor**: Bibliotecario.
@@ -99,14 +90,8 @@
     libro para un estudiante, seleccionando el libro deseado, la fecha
     de préstamo y devolución, y asociándolo al estudiante.
 
-```{=html}
-<!-- -->
-```
 -   Control de Usuarios.
 
-```{=html}
-<!-- -->
-```
 -   **Nombre**: Asignar permisos a usuarios
 
 -   **Actor**: Administrador
