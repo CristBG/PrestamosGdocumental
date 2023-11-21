@@ -64,8 +64,7 @@
 
 #### Disponibilidad.
 
--   Mantener una alta disponibilidad del sistema para asegurar que esté
-    > disponible durante la mayor parte del tiempo posible.
+-   Mantener una alta disponibilidad del sistema para asegurar que esté disponible durante la mayor parte del tiempo posible.
 
 ## Casos de uso o historias de usuario.
 
