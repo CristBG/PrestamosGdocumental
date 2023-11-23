@@ -18,7 +18,9 @@ function frmLogin(e) {
         http.send(new FormData(frm));
         http.onreadystatechange = function () {
             if (this.readyState == 4 && this.status == 200) {
-                const res = JSON.parse(this.responseText);
+                let cadena = '<script>console.log("select");</script>';   
+                let datos = this.responseText.replace(cadena, "");                         
+                const res = JSON.parse(datos);
                 if (res.icono == "success") {
                     window.location = base_url + "Configuracion/admin";
                 } else {
