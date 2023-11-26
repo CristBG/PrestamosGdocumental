@@ -118,6 +118,55 @@
 
 # Diseño del Sistema.
 
+Para diseñar un sistema de préstamos de una biblioteca basado en el esquema proporcionado, se pueden identificar varios componentes clave y su interacción. Aquí hay un diseño conceptual de alto nivel:
+
+### Componentes del Sistema:
+
+1. **Módulo de Usuarios:**
+   - Gestiona la autenticación y el control de acceso.
+   - Permite la creación, edición y eliminación de usuarios.
+   - Asigna roles y permisos a los usuarios para controlar su acceso.
+
+2. **Módulo de Libros:**
+   - Administra la información sobre los libros disponibles en la biblioteca.
+   - Permite la adición, edición y eliminación de libros.
+   - Asocia libros con autores, editoriales y materias.
+
+3. **Módulo de Préstamos:**
+   - Gestiona los préstamos de libros a estudiantes.
+   - Registra la información de préstamo, incluyendo fechas de préstamo y devolución.
+   - Controla el inventario de libros disponibles para préstamo.
+
+4. **Módulo de Configuración:**
+   - Permite la configuración del sistema, incluyendo información como nombre, teléfono, dirección, correo, etc.
+
+### Interacción entre Componentes:
+
+- Los usuarios autenticados tienen acceso a las funcionalidades según sus roles y permisos.
+- Los usuarios pueden buscar y ver información sobre los libros disponibles, autores, editoriales, etc.
+- Los usuarios autorizados pueden realizar préstamos de libros a estudiantes.
+- El sistema verifica la disponibilidad del libro para préstamo y registra la transacción.
+- Los estudiantes pueden acceder a sus préstamos activos, ver fechas de devolución, etc.
+- La configuración del sistema está disponible para administradores para mantener datos generales.
+
+### Flujo de Trabajo:
+
+1. **Gestión de Usuarios:**
+   - Crear/Editar/Eliminar usuarios y asignar roles y permisos.
+
+2. **Gestión de Libros:**
+   - Administrar la información de libros, autores y editoriales.
+
+3. **Proceso de Préstamo:**
+   - Usuario busca un libro disponible.
+   - Se verifica la disponibilidad del libro.
+   - Se registra el préstamo asociado al estudiante.
+
+4. **Configuración del Sistema:**
+   - Mantener los datos generales y de contacto de la biblioteca.
+
+Este diseño proporciona una visión general de cómo los diferentes módulos interactúan entre sí en un sistema de préstamos de biblioteca. Cada módulo puede tener su propia interfaz de usuario y funcionalidades específicas para administrar datos y permitir la interacción con los usuarios finales. La implementación técnica de estos componentes dependerá del entorno y tecnologías específicas utilizadas en el desarrollo del sistema.
+
 # Documentación del Código.
 
 # Manuales.
