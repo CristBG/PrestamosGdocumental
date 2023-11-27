@@ -178,6 +178,10 @@ Este diseño proporciona una visión general de cómo los diferentes módulos in
 
 # Diagramas y Gráficos.
 
-1. **Modelo Entidad Relación:**
+1. **Modelo Entidad Relación**
 
 ![Modelo_Entidad_relacion](https://github.com/CristBG/PrestamosGdocumental/assets/97702224/8870c537-815b-4391-bd2e-b34b608157ab)
+
+2. **Flujo de Proceso**
+
+![Dibujo1](https://github.com/CristBG/PrestamosGdocumental/assets/97702224/0349fa8f-9322-4f5e-b078-aab949ce0177)
