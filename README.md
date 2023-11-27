@@ -184,4 +184,5 @@ Este diseño proporciona una visión general de cómo los diferentes módulos in
 
 2. **Flujo de Proceso**
 
-![Dibujo1](https://github.com/CristBG/PrestamosGdocumental/assets/97702224/0349fa8f-9322-4f5e-b078-aab949ce0177)
+![Flujo_Proceso](https://github.com/CristBG/PrestamosGdocumental/assets/97702224/94c5d791-d34d-4534-9573-b72bf4edf564)
+
