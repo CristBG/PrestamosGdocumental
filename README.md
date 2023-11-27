@@ -73,22 +73,31 @@
 -   Gestión de Libros.
 
 **Nombre**: Registrar nuevo libro.
+
 **Actor**: Bibliotecario.
+
 **Descripción**: El bibliotecario puede registrar un nuevo libro en el sistema, ingresando información como título, cantidad, autor, editorial, materia, etc.
+
 ![image](https://github.com/CristBG/PrestamosGdocumental/assets/97702224/52c9ed22-04f3-404a-b199-d447fae32335)
 
 -   Administración de Préstamos.
 
 **Nombre**: Realizar préstamo de libro.
+
 **Actor**: Bibliotecario.
+
 **Descripción**: El bibliotecario puede registrar un préstamo de libro para un estudiante, seleccionando el libro deseado, la fecha de préstamo y devolución, y asociándolo al estudiante.
+
 ![image](https://github.com/CristBG/PrestamosGdocumental/assets/97702224/8127913b-61d8-4699-997a-f4b7e0419faa)
 
 -   Control de Usuarios.
 
 **Nombre**: Asignar permisos a usuarios.
+
 **Actor**: Administrador
+
 **Descripción**: El administrador puede asignar o modificar los permisos de acceso a distintos módulos del sistema para cada usuario, como acceso a la gestión de libros, estudiantes, configuración, etc.
+
 ![image](https://github.com/CristBG/PrestamosGdocumental/assets/97702224/c3580672-496c-4652-81b9-2a3ffe49bdb9)
 
 ### Historias de Usuario.
@@ -170,4 +179,5 @@ Este diseño proporciona una visión general de cómo los diferentes módulos in
 # Diagramas y Gráficos.
 
 1. **Modelo Entidad Relación:**
+
 ![Modelo_Entidad_relacion](https://github.com/CristBG/PrestamosGdocumental/assets/97702224/8870c537-815b-4391-bd2e-b34b608157ab)
