@@ -7,8 +7,7 @@ class Query extends Conexion{
     }
     public function select(string $sql)
     {
-        $this->sql = $sql;
-        echo '<script>console.log("select");</script>';
+        $this->sql = $sql;        
         $resul = $this->con->prepare($this->sql);
         $resul->execute();
         $data = $resul->fetch(PDO::FETCH_ASSOC);
