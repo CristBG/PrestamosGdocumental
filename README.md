@@ -1,4 +1,6 @@
 ### Portada
+![image](https://github.com/CristBG/PrestamosGdocumental/assets/uniminuto.png)
+
 Proyecto Final
 
 Presentado por:
