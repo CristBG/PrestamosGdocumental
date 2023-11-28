@@ -218,3 +218,6 @@ https://hub.docker.com/repository/docker/cpardoan/prestamos
 
 ![Flujo_Proceso](https://github.com/CristBG/PrestamosGdocumental/assets/97702224/94c5d791-d34d-4534-9573-b72bf4edf564)
 
+3. **Modelo infraestructura**
+
+![Modelo infraestructura](www/PrestamosGdocumental/Assets/img/Diagrama_infraestructura.jpg)
