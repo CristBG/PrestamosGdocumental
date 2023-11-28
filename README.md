@@ -2,10 +2,10 @@
 Proyecto Final
 
 Presentado por:
-harold mesa 
-cristian ballen
-cristian pardo
-diana pinzon
+-        harold mesa 
+-        cristian ballen
+-        cristian pardo
+-        diana pinzon
 
 docente:
 jaider ospina
