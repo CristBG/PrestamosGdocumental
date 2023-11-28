@@ -10,7 +10,7 @@ Presentado por:
 -        diana pinzon
 
 Docente:
-Jaider Ospina
+-        Jaider Ospina
 
 diplomado DevSecOps
 ### Introducción.
