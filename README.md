@@ -1,5 +1,5 @@
 ### Portada
-![image](https://github.com/CristBG/PrestamosGdocumental/assets/uniminuto.png)
+![image](https://github.com/CristBG/www/PrestamosGdocumental/Assets/img)
 
 Proyecto Final
 
