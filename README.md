@@ -188,7 +188,19 @@ Este diseño proporciona una visión general de cómo los diferentes módulos in
 - [Manual de Usuario](Manual_Usuario.pdf) :Documento que proporciona información detallada sobre cómo utilizar el sistema de préstamos de biblioteca.
 # Pruebas.
 
-# Procesos.
+# Enlaces Docker.
+
+phpmyadmin:
+
+https://hub.docker.com/repository/docker/cpardoan/phpmyadmin_prestamos
+
+mysql:
+
+https://hub.docker.com/repository/docker/cpardoan/mysql_prestamos
+
+Codigo:
+
+https://hub.docker.com/repository/docker/cpardoan/prestamos
 
 # Seguridad.
 
