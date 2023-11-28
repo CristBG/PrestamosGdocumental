@@ -169,6 +169,7 @@ Este diseño proporciona una visión general de cómo los diferentes módulos in
 # Documentación del Código.
 
 # Manuales.
+- [Manual de Usuario](Manual_Usuario.pdf) :Documento que proporciona información detallada sobre cómo utilizar el sistema de préstamos de biblioteca.
 
 # Pruebas.
 
