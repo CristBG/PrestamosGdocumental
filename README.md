@@ -188,9 +188,58 @@ Este diseño proporciona una visión general de cómo los diferentes módulos in
 
 # Documentación del Código.
 
-# Manuales.
-- [Manual de Usuario](Manual_Usuario.pdf) :Documento que proporciona información detallada sobre cómo utilizar el sistema de préstamos de biblioteca.
-# Pruebas.
+#### 1. Tecnologías Utilizadas:
+El proyecto utiliza PHP como lenguaje de programación para la lógica del servidor, HTML para la interfaz de usuario, y MySQL a través de PhpMyAdmin para la gestión de la base de datos. Se encuentra contenerizado con Docker para la gestión del entorno de desarrollo.
+
+#### 2. Explicación:
+La aplicación está estructurada con PHP manejando la lógica del servidor y la comunicación con la base de datos MySQL a través de PhpMyAdmin. La interfaz de usuario está desarrollada en HTML. Docker se utiliza para gestionar el entorno y la portabilidad del proyecto.
+
+### 3. Descripción del Código Fuente:
+#### Estructura del Proyecto:
+
+- `/PrestamosGdocumental`: Carpeta principal que contiene el código fuente.
+- `/PrestamosGdocumental/Assets`: Estilos CSS y Fuentes de la Aplicación.
+- `/PrestamosGdocumental/Libraries`: Libreria de Generación de PDF.
+- `/PrestamosGdocumental/Controllers`: Controladores PHP para la lógica del sistema.
+- `/PrestamosGdocumental/Views`: Archivos HTML para la interfaz de usuario.
+- `/PrestamosGdocumental/Models`: Modelos PHP para la interacción con la base de datos.
+
+#### Funcionalidades Principales:
+- **Buscar Libros:** Permite a los usuarios buscar libros por título, autor, etc.
+- **Administrar Préstamos:** Gestiona préstamos, devoluciones y fechas límite.
+- **Agregar/Editar Información:** Permite la adición y edición de información de libros, autores y estudiantes.
+
+### 4. Tecnologías Utilizadas:
+#### Descripción Detallada:
+- **PHP:** Maneja la lógica del servidor y las interacciones con la base de datos.
+- **HTML:** Define la estructura y la interfaz de usuario.
+- **MySQL (PhpMyAdmin):** Almacena y gestiona la información del sistema.
+- **Docker:** Utilizado para contenerizar la aplicación y gestionar el entorno de desarrollo.
+
+### 5. Instrucciones de Ejecución:
+#### Pasos para Desplegar el Proyecto:
+1. Clonar el repositorio desde GitHub.
+2. Instalar Docker y Docker Compose en el sistema.
+3. Configurar el entorno y las variables necesarias.
+4. Ejecutar el contenedor para iniciar la aplicación.
+
+### 6. Consideraciones de Seguridad:
+#### Medidas Implementadas:
+- Encriptación de contraseñas en la base de datos.
+- Validación de entrada para evitar inyecciones SQL.
+- Control de acceso basado en roles para proteger datos sensibles.
+
+### 9. Pruebas Realizadas:
+#### Resultados:
+- Pruebas unitarias para cada módulo y función.
+- Pruebas de integración para verificar la interacción entre componentes.
+- Pruebas de rendimiento para evaluar la velocidad y la escalabilidad.
+
+### 10. Mantenimiento y Futuras Mejoras:
+#### Mejoras Propuestas:
+- Implementación de una interfaz más intuitiva y amigable.
+- Optimización del rendimiento de la base de datos.
+- Mejoras en la seguridad y la escalabilidad del sistema.
 
 # Enlaces Docker.
 
@@ -206,7 +255,9 @@ Codigo:
 
 https://hub.docker.com/repository/docker/cpardoan/prestamos
 
-# Seguridad.
+# Manuales.
+- [Manual de Usuario](Manual_Usuario.pdf) :Documento que proporciona información detallada sobre cómo utilizar el sistema de préstamos de biblioteca.
+
 
 # Diagramas y Gráficos.
 
