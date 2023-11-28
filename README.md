@@ -14,7 +14,7 @@ Docente:
 
 diplomado DevSecOps
 ### Introducción.
-- En un mundo donde la complejidad de las aplicaciones se incrementa constantemente y la presión por desarrollos más rápidos se intensifica, la infraestructura, los equipos de Tecnologías de la Información (T.I) y los procesos se enfrentan a desafíos. La tecnología de contenedores ha surgido como un elemento crucial para abordar estos desafíos y facilitar la interacción ágil en diversos entornos.
+En un mundo donde la complejidad de las aplicaciones se incrementa constantemente y la presión por desarrollos más rápidos se intensifica, la infraestructura, los equipos de Tecnologías de la Información (T.I) y los procesos se enfrentan a desafíos. La tecnología de contenedores ha surgido como un elemento crucial para abordar estos desafíos y facilitar la interacción ágil en diversos entornos.
 
 La tecnología de contenedores no solo responde a la necesidad de acelerar el desarrollo, sino que también ha evolucionado en estrecha relación con el Kernel de Linux. Los contenedores representan una innovación que impulsa nuevas formas de crear y implementar sistemas. 
 
