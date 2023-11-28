@@ -7,8 +7,8 @@ Presentado por:
 -        cristian pardo
 -        diana pinzon
 
-docente:
-jaider ospina
+Docente:
+Jaider Ospina
 
 diplomado DevSecOps
 ### Introducción.
