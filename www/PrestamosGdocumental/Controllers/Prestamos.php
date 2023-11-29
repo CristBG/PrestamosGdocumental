@@ -53,10 +53,10 @@ class Prestamos extends Controller
             $verificar_cant = $this->model->getCantLibro($libro);
             if ($verificar_cant['cantidad'] >= $cantidad) {
                 $data = $this->model->insertarPrestamo($estudiante,$libro, $cantidad, $fecha_prestamo, $fecha_devolucion, $observacion);
-                if ($data > 0) {
-                    $msg = array('msg' => 'Libro Prestado', 'icono' => 'success', 'id' => $data);
-                } else if ($data == "existe") {
+                if ($data == "existe") {                    
                     $msg = array('msg' => 'El libro ya esta prestado', 'icono' => 'warning');
+                } else if ($data > 0) {
+                    $msg = array('msg' => 'Libro Prestado', 'icono' => 'success', 'id' => $data);
                 } else {
                     $msg = array('msg' => 'Error al prestar', 'icono' => 'error');
                 }
