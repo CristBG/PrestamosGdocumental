@@ -18,7 +18,7 @@
     </section>
     <section class="login-content">
         <div class="logo" style="font-family:'Roboto', sans-serif">
-            <h1>Sistema de Prestamos Dirección de Gestión Documental</h1>
+            <h1>Sistema de Prestamos biblioteca</h1>
         </div>
         <div class="login-box">
             <form class="login-form" id="frmLogin" onsubmit="frmLogin(event);">
