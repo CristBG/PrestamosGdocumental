@@ -220,8 +220,9 @@ La aplicación está estructurada con PHP manejando la lógica del servidor y la
 #### Pasos para Desplegar el Proyecto:
 1. Clonar el repositorio desde GitHub.
 2. Instalar Docker y Docker Compose en el sistema.
-3. Configurar el entorno y las variables necesarias.
-4. Ejecutar el contenedor para iniciar la aplicación.
+3. Ejecutar el siguiente comando:
+`docker-compose up -d`
+5. Si es necesario, modificar y configurar el entorno y las variables necesarias en [Dockerfile](Dockerfile) y [docker-compose.yml ](docker-compose.yml )
 
 ### 6. Consideraciones de Seguridad:
 #### Medidas Implementadas:
