@@ -14,11 +14,10 @@ Docente:
 
 diplomado DevSecOps
 ### Introducción.
-En un mundo donde la complejidad de las aplicaciones se incrementa constantemente y la presión por desarrollos más rápidos se intensifica, la infraestructura, los equipos de Tecnologías de la Información (T.I) y los procesos se enfrentan a desafíos. La tecnología de contenedores ha surgido como un elemento crucial para abordar estos desafíos y facilitar la interacción ágil en diversos entornos.
 
-La tecnología de contenedores no solo responde a la necesidad de acelerar el desarrollo. Los contenedores representan una innovación que impulsa nuevas formas de crear y implementar sistemas. 
+El objetivo de este documento es presentar que se ha diseñado un sistema contenerizado mediante Docker, el cual no solo simplifica el desarrollo y la implementación, sino que también proporciona una plataforma escalable y segura para la gestión de libros y préstamos de los mismos. El sistema abarca funciones, desde la Gestión de Libros hasta la Administración de Usuarios, permite la inserción, actualización, eliminación y visualización de libros, asignación de libros a autores y materias, registro de estudiantes y asociación con préstamos de libros, así como el seguimiento de fechas de préstamo y devolución.
+El código fuente se encuentra estructurado de manera clara, utilizando tecnologías como PHP, HTML y MySQL, y contenerizado con Docker para facilitar la gestión del entorno de desarrollo. Se han implementado medidas de seguridad, pruebas unitarias y de rendimiento para garantizar la eficiencia del sistema. Se han proporcionado enlaces a imágenes Docker para una fácil implementación y manuales detallados para los usuarios y desarrolladores. 
 
-En este contexto, exploraremos cómo los contenedores han transformado el panorama de desarrollo, ofreciendo no solo eficiencia en términos de velocidad y adaptabilidad, sino también la capacidad de construir un entorno colaborativo que responde a las demandas dinámicas de la era digital.
 
 # **Especificación de Requerimientos.**
 
